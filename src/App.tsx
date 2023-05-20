@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// My main container
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className="flex justify-center items-center bg-gradient-to-br from-green-400 via-rose-400
+     to-yellow-300 h-[100vh] w-full">
+      <section className="bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg rounded">
+ Hello world
+      </section>
+     
+    </main>
+  )
 }
 
 export default App;
