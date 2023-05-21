@@ -11,10 +11,10 @@ const App = () => {
         <p className="text-sm mt-2">
           Enter below a place you want to know the weather of and select an option from dropdown
         </p>
-        <div>
-        <input type="text" value={''} className="px-2 py-1 border-2 rounded-l-md mt-3 border-white"/>
+        <div className="flex mt-10 md:mt-4">
+        <input type="text" value={''} className=" border-2 rounded-l-md mt-3 border-white"/>
         <button className="rounder-r-md border-2 border-white cursor-pointer
-         hover:border-gray-700 text-gray-900 py-1 px-4 mt-4">
+         hover:border-gray-700 text-gray-900 py-1 px-4 mt-3">
 Search
         </button>
         </div>
